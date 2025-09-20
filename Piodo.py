@@ -1,12 +1,12 @@
-def normalize_direction(input_str):         # A function based on cartesian plane coordinates
-    input_str = input_str.strip().lower()
-    if input_str in ['n', 'north']:
+def normalize_direction(input_stri):         # A function based on cartesian plane coordinates
+    input_stri = input_stri.strip().lower()
+    if input_stri in ['n', 'north']:
         return 'N'
-    elif input_str in ['s', 'south']:
+    elif input_stri in ['s', 'south']:
         return 'S'
-    elif input_str in ['e', 'east']:
+    elif input_stri in ['e', 'east']:
         return 'E'
-    elif input_str in ['w', 'west']:
+    elif input_stri in ['w', 'west']:
         return 'W'
     else:
         return None
